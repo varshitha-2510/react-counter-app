@@ -1,16 +1,139 @@
-# React + Vite
+# React Counter App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive **Counter Application** built with **React and Vite**. This project was created to understand the fundamentals of React, including components, state management, event handling, and dynamic UI updates.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Increment the counter
+* Decrement the counter
+* Reset the counter
+* Dynamic UI updates
+* Responsive and clean interface
+* Styled using Tailwind CSS
+* Built with React and Vite
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **React** – Building the user interface
+* **React DOM** – Rendering React components into the browser
+* **Vite** – Development server and build tool
+* **Tailwind CSS** – Styling and responsive design
+* **JavaScript (JSX)** – Application logic and component structure
+* **ESLint** – Code quality and linting
 
-## Expanding the ESLint configuration
+The project is configured with React, React DOM, Tailwind CSS, the Tailwind Vite plugin, and Vite.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Project Structure
+
+```text
+react-counter-app/
+│
+├── public/
+│
+├── src/
+│   ├── assets/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── ...
+│
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+├── package-lock.json
+├── vite.config.js
+└── README.md
+```
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/YOUR-USERNAME/react-counter-app.git
+```
+
+Move into the project directory:
+
+```bash
+cd react-counter-app
+```
+
+Install the dependencies:
+
+```bash
+npm install
+```
+
+## ▶️ Run the Project
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Then open the local URL displayed in the terminal.
+
+## 📦 Available Commands
+
+### Start development server
+
+```bash
+npm run dev
+```
+
+### Build for production
+
+```bash
+npm run build
+```
+
+### Run ESLint
+
+```bash
+npm run lint
+```
+
+### Preview production build
+
+```bash
+npm run preview
+```
+
+These commands are defined in the project's `package.json`.
+
+## 🎯 Learning Objectives
+
+This project was created as a beginner React project to practice:
+
+* Understanding React components
+* Using JSX
+* Managing state
+* Handling button click events
+* Updating the UI based on state changes
+* Understanding how React re-renders components
+* Working with Vite
+* Styling a React application using Tailwind CSS
+
+## 🔧 Configuration
+
+Vite is configured with the React plugin and Tailwind CSS plugin.
+
+ESLint is also configured with recommended JavaScript, React Hooks, and React Refresh rules.
+
+## 📌 Project Status
+
+**Completed**
+
+This project is part of my React learning journey and focuses on understanding the fundamental concepts of React through a small practical application.
+
+## 👩‍💻 Author
+
+**Varshitha**
+
+GitHub: [Your GitHub Profile](https://github.com/)
+
+---
+
+⭐ If you found this project useful, feel free to star the repository!
